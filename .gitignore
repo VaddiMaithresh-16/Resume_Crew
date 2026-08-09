@@ -1,0 +1,36 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Python artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg
+
+# Private candidate data and generated reports
+output/
+archive/unwanted/
+data/
+
+# Logs
+*.log
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Do not accidentally commit user documents outside the supplied samples.
+*.pdf
+*.docx
+!samples/**/*.pdf
+!samples/**/*.docx
