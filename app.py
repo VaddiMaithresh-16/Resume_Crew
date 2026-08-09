@@ -924,7 +924,7 @@ with gr.Blocks(
             )
 
         # ── Tab: Compare Job Descriptions ──────────────────────────────────
-        with gr.Tab("📑 Compare JDs"):
+        with gr.Tab("📑 Compare Resumes"):
 
             gr.Markdown(
                 "Score **one resume** against **several job descriptions** at once, to see "
